@@ -13,13 +13,11 @@ import { map, tap } from 'rxjs/operators';
   styleUrls: ['./app.component.less'],
 })
 export class AppComponent implements OnInit {
-  cars$: Observable<Car[]>;
-
   monies$: Observable<MoneyData[]>;
 
   constructor(private http: HttpClient) {}
 
-  ngOnInit(): void {    
+  ngOnInit(): void {
 
     this.monies$ = this.http.get('/assets/money.json').pipe(
       map((res: JsonArray) => DeserializeArray(res, MoneyData)),
