@@ -68,6 +68,17 @@ export class GenericTableComponent implements OnInit {
   }
   get data(): any[] {
     return this.pData;
+    // if (this.pData) {
+    //   return this.pData.map( a => {
+    //     let total = 0;
+    //     this.columns.forEach(element => {
+    //       if (element.includeInTotal){
+    //         total += a[element.key];
+    //       }
+    //     });
+    //     return {...a, total};
+    //   });
+    // }
   }
 
   columns: ColumnModel[];
@@ -99,7 +110,7 @@ export class GenericTableComponent implements OnInit {
     this.columns = this.pTableModel.columns;
     if (this.showTotal){
       this.columns.push(new ColumnModel(
-        {canSort: true, editable: false, key: 'Total', order: this.columns.length, propertyType: 'Money', includeInTotal: false}
+        {canSort: true, editable: false, key: 'total', order: this.columns.length, propertyType: 'number', includeInTotal: false}
       ));
     }
     this.sortColumns();
