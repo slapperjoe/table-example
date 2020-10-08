@@ -1,0 +1,701 @@
+[{
+  "id": 1,
+  "label": "background",
+  "money1": 3022.49,
+  "money2": 54250.27,
+  "money3": 24436.26,
+  "money4": 20493.42
+}, {
+  "id": 2,
+  "label": "24/7",
+  "money1": 51248.22,
+  "money2": 10690.6,
+  "money3": 54946.92,
+  "money4": 2987.43
+}, {
+  "id": 3,
+  "label": "Progressive",
+  "money1": 93024.59,
+  "money2": 75734.91,
+  "money3": 98786.82,
+  "money4": 77725.48
+}, {
+  "id": 4,
+  "label": "Team-oriented",
+  "money1": 11067.52,
+  "money2": 31866.08,
+  "money3": 21129.08,
+  "money4": 95337.04
+}, {
+  "id": 5,
+  "label": "instruction set",
+  "money1": 15688.13,
+  "money2": 97872.16,
+  "money3": 40422.92,
+  "money4": 9307.48
+}, {
+  "id": 6,
+  "label": "matrices",
+  "money1": 79107.22,
+  "money2": 93952.6,
+  "money3": 67171.94,
+  "money4": 89671.98
+}, {
+  "id": 7,
+  "label": "Phased",
+  "money1": 54779.54,
+  "money2": 13644.42,
+  "money3": 24768.7,
+  "money4": 42828.84
+}, {
+  "id": 8,
+  "label": "Synchronised",
+  "money1": 61589.96,
+  "money2": 20055.8,
+  "money3": 82034.77,
+  "money4": 6147.18
+}, {
+  "id": 9,
+  "label": "data-warehouse",
+  "money1": 68354.13,
+  "money2": 14872.72,
+  "money3": 50144.28,
+  "money4": 7851.99
+}, {
+  "id": 10,
+  "label": "Realigned",
+  "money1": 73733.3,
+  "money2": 3760.64,
+  "money3": 30958.71,
+  "money4": 48744.08
+}, {
+  "id": 11,
+  "label": "migration",
+  "money1": 37311.39,
+  "money2": 36073.83,
+  "money3": 98811.87,
+  "money4": 91969.75
+}, {
+  "id": 12,
+  "label": "Mandatory",
+  "money1": 20914.88,
+  "money2": 2376.48,
+  "money3": 72079.6,
+  "money4": 53276.03
+}, {
+  "id": 13,
+  "label": "Multi-lateral",
+  "money1": 1712.11,
+  "money2": 79096.56,
+  "money3": 64403.23,
+  "money4": 89495.16
+}, {
+  "id": 14,
+  "label": "3rd generation",
+  "money1": 56864.55,
+  "money2": 78915.07,
+  "money3": 75132.68,
+  "money4": 32215.68
+}, {
+  "id": 15,
+  "label": "Graphical User Interface",
+  "money1": 20599.28,
+  "money2": 2262.63,
+  "money3": 17649.12,
+  "money4": 45951.76
+}, {
+  "id": 16,
+  "label": "Object-based",
+  "money1": 69831.45,
+  "money2": 79288.55,
+  "money3": 86520.7,
+  "money4": 53258.39
+}, {
+  "id": 17,
+  "label": "Multi-layered",
+  "money1": 2195.75,
+  "money2": 63570.35,
+  "money3": 66020.81,
+  "money4": 17095.65
+}, {
+  "id": 18,
+  "label": "stable",
+  "money1": 52147.6,
+  "money2": 98330.01,
+  "money3": 46853.49,
+  "money4": 60635.75
+}, {
+  "id": 19,
+  "label": "forecast",
+  "money1": 69072.41,
+  "money2": 98512.33,
+  "money3": 38616.44,
+  "money4": 49857.03
+}, {
+  "id": 20,
+  "label": "focus group",
+  "money1": 35207.19,
+  "money2": 72663.59,
+  "money3": 96329.78,
+  "money4": 86153.54
+}, {
+  "id": 21,
+  "label": "leverage",
+  "money1": 18318.77,
+  "money2": 2154.4,
+  "money3": 86356.47,
+  "money4": 30709.61
+}, {
+  "id": 22,
+  "label": "Customer-focused",
+  "money1": 38245.26,
+  "money2": 79736.92,
+  "money3": 54920.14,
+  "money4": 85010.1
+}, {
+  "id": 23,
+  "label": "dynamic",
+  "money1": 37597.88,
+  "money2": 29114.1,
+  "money3": 91336.53,
+  "money4": 25516.17
+}, {
+  "id": 24,
+  "label": "Networked",
+  "money1": 28285.09,
+  "money2": 32723.17,
+  "money3": 38050.3,
+  "money4": 7892.7
+}, {
+  "id": 25,
+  "label": "tangible",
+  "money1": 24685.93,
+  "money2": 86093.01,
+  "money3": 93696.13,
+  "money4": 14767.53
+}, {
+  "id": 26,
+  "label": "Graphic Interface",
+  "money1": 89156.59,
+  "money2": 7515.82,
+  "money3": 63074.46,
+  "money4": 92048.81
+}, {
+  "id": 27,
+  "label": "Re-engineered",
+  "money1": 95963.08,
+  "money2": 17451.5,
+  "money3": 86684.06,
+  "money4": 69599.32
+}, {
+  "id": 28,
+  "label": "architecture",
+  "money1": 68819.28,
+  "money2": 70441.39,
+  "money3": 7418.05,
+  "money4": 97122.31
+}, {
+  "id": 29,
+  "label": "Right-sized",
+  "money1": 58718.55,
+  "money2": 82092.93,
+  "money3": 39611.45,
+  "money4": 43842.55
+}, {
+  "id": 30,
+  "label": "De-engineered",
+  "money1": 1423.75,
+  "money2": 99888.12,
+  "money3": 4424.82,
+  "money4": 59284.86
+}, {
+  "id": 31,
+  "label": "Cross-group",
+  "money1": 32270.57,
+  "money2": 12802.98,
+  "money3": 12658.9,
+  "money4": 37010.37
+}, {
+  "id": 32,
+  "label": "explicit",
+  "money1": 47665.11,
+  "money2": 11834.79,
+  "money3": 62217.09,
+  "money4": 96774.86
+}, {
+  "id": 33,
+  "label": "Integrated",
+  "money1": 72707.09,
+  "money2": 25766.96,
+  "money3": 15068.12,
+  "money4": 9636.84
+}, {
+  "id": 34,
+  "label": "secondary",
+  "money1": 83746.4,
+  "money2": 9023.88,
+  "money3": 8578.45,
+  "money4": 47810.5
+}, {
+  "id": 35,
+  "label": "contingency",
+  "money1": 47549.6,
+  "money2": 54731.36,
+  "money3": 82056.29,
+  "money4": 14980.71
+}, {
+  "id": 36,
+  "label": "cohesive",
+  "money1": 46734.44,
+  "money2": 35750.86,
+  "money3": 35302.1,
+  "money4": 56780.88
+}, {
+  "id": 37,
+  "label": "capability",
+  "money1": 84809.42,
+  "money2": 59417.67,
+  "money3": 30477.44,
+  "money4": 37216.19
+}, {
+  "id": 38,
+  "label": "Ameliorated",
+  "money1": 68998.1,
+  "money2": 69532.65,
+  "money3": 98423.76,
+  "money4": 34895.37
+}, {
+  "id": 39,
+  "label": "3rd generation",
+  "money1": 5677.65,
+  "money2": 85804.48,
+  "money3": 88929.01,
+  "money4": 36124.37
+}, {
+  "id": 40,
+  "label": "zero administration",
+  "money1": 61521.14,
+  "money2": 41867.43,
+  "money3": 33182.8,
+  "money4": 98349.33
+}, {
+  "id": 41,
+  "label": "systemic",
+  "money1": 82726.61,
+  "money2": 7935.18,
+  "money3": 9635.24,
+  "money4": 84393.52
+}, {
+  "id": 42,
+  "label": "monitoring",
+  "money1": 26549.48,
+  "money2": 91334.76,
+  "money3": 68970.32,
+  "money4": 72742.16
+}, {
+  "id": 43,
+  "label": "didactic",
+  "money1": 26816.91,
+  "money2": 55165.03,
+  "money3": 546.18,
+  "money4": 24615.43
+}, {
+  "id": 44,
+  "label": "transitional",
+  "money1": 24469.25,
+  "money2": 22421.46,
+  "money3": 13655.71,
+  "money4": 79654.26
+}, {
+  "id": 45,
+  "label": "User-friendly",
+  "money1": 92686.14,
+  "money2": 6065.3,
+  "money3": 61815.76,
+  "money4": 37535.09
+}, {
+  "id": 46,
+  "label": "optimal",
+  "money1": 30261.37,
+  "money2": 5365.75,
+  "money3": 2074.9,
+  "money4": 2214.03
+}, {
+  "id": 47,
+  "label": "Graphic Interface",
+  "money1": 25892.93,
+  "money2": 72654.41,
+  "money3": 75751.15,
+  "money4": 83734.08
+}, {
+  "id": 48,
+  "label": "internet solution",
+  "money1": 96579.67,
+  "money2": 99656.54,
+  "money3": 39698.14,
+  "money4": 76962.15
+}, {
+  "id": 49,
+  "label": "explicit",
+  "money1": 75827.01,
+  "money2": 76768.32,
+  "money3": 63424.49,
+  "money4": 43239.11
+}, {
+  "id": 50,
+  "label": "leverage",
+  "money1": 57204.59,
+  "money2": 88418.18,
+  "money3": 55071.65,
+  "money4": 48175.44
+}, {
+  "id": 51,
+  "label": "neural-net",
+  "money1": 90091.6,
+  "money2": 60055.26,
+  "money3": 67565.78,
+  "money4": 34543.97
+}, {
+  "id": 52,
+  "label": "encompassing",
+  "money1": 44756.61,
+  "money2": 9058.36,
+  "money3": 95435.52,
+  "money4": 38716.65
+}, {
+  "id": 53,
+  "label": "Integrated",
+  "money1": 2288.61,
+  "money2": 24917.52,
+  "money3": 22328.26,
+  "money4": 90466.05
+}, {
+  "id": 54,
+  "label": "Front-line",
+  "money1": 98046.75,
+  "money2": 8813.32,
+  "money3": 4052.91,
+  "money4": 19164.98
+}, {
+  "id": 55,
+  "label": "Assimilated",
+  "money1": 15448.96,
+  "money2": 14280.95,
+  "money3": 6209.19,
+  "money4": 34056.09
+}, {
+  "id": 56,
+  "label": "eco-centric",
+  "money1": 43190.64,
+  "money2": 94288.75,
+  "money3": 98713.27,
+  "money4": 57498.11
+}, {
+  "id": 57,
+  "label": "structure",
+  "money1": 35290.05,
+  "money2": 34729.75,
+  "money3": 40877.89,
+  "money4": 45131.41
+}, {
+  "id": 58,
+  "label": "leading edge",
+  "money1": 88411.95,
+  "money2": 96987.48,
+  "money3": 52165.23,
+  "money4": 65321.13
+}, {
+  "id": 59,
+  "label": "4th generation",
+  "money1": 9585.5,
+  "money2": 41865.09,
+  "money3": 66116.06,
+  "money4": 38548.84
+}, {
+  "id": 60,
+  "label": "Triple-buffered",
+  "money1": 17732.16,
+  "money2": 88335.46,
+  "money3": 92963.44,
+  "money4": 10229.97
+}, {
+  "id": 61,
+  "label": "Compatible",
+  "money1": 22550.16,
+  "money2": 19001.32,
+  "money3": 23098.16,
+  "money4": 82009.59
+}, {
+  "id": 62,
+  "label": "project",
+  "money1": 33422.16,
+  "money2": 84786.95,
+  "money3": 11946.94,
+  "money4": 54341.96
+}, {
+  "id": 63,
+  "label": "Reactive",
+  "money1": 30057.4,
+  "money2": 70467.39,
+  "money3": 54207.94,
+  "money4": 60569.29
+}, {
+  "id": 64,
+  "label": "Future-proofed",
+  "money1": 59521.19,
+  "money2": 36117.29,
+  "money3": 81271.26,
+  "money4": 64847.81
+}, {
+  "id": 65,
+  "label": "Centralized",
+  "money1": 43080.53,
+  "money2": 76782.94,
+  "money3": 37315.91,
+  "money4": 26341.63
+}, {
+  "id": 66,
+  "label": "didactic",
+  "money1": 963.77,
+  "money2": 47163.07,
+  "money3": 11265.41,
+  "money4": 45017.71
+}, {
+  "id": 67,
+  "label": "Customizable",
+  "money1": 66625.63,
+  "money2": 48557.82,
+  "money3": 20767.12,
+  "money4": 40664.1
+}, {
+  "id": 68,
+  "label": "moratorium",
+  "money1": 83755.52,
+  "money2": 48068.38,
+  "money3": 55901.02,
+  "money4": 12601.61
+}, {
+  "id": 69,
+  "label": "Right-sized",
+  "money1": 6067.33,
+  "money2": 58345.82,
+  "money3": 97994.76,
+  "money4": 43017.74
+}, {
+  "id": 70,
+  "label": "Face to face",
+  "money1": 43867.36,
+  "money2": 93871.58,
+  "money3": 32500.29,
+  "money4": 72196.92
+}, {
+  "id": 71,
+  "label": "Stand-alone",
+  "money1": 82969.84,
+  "money2": 12735.28,
+  "money3": 19358.92,
+  "money4": 12617.52
+}, {
+  "id": 72,
+  "label": "software",
+  "money1": 37954.05,
+  "money2": 83974.02,
+  "money3": 38970.19,
+  "money4": 76417.8
+}, {
+  "id": 73,
+  "label": "encoding",
+  "money1": 83302.03,
+  "money2": 29084.89,
+  "money3": 79110.66,
+  "money4": 29633.52
+}, {
+  "id": 74,
+  "label": "Distributed",
+  "money1": 86882.87,
+  "money2": 9873.6,
+  "money3": 33940.19,
+  "money4": 67094.66
+}, {
+  "id": 75,
+  "label": "capacity",
+  "money1": 99547.43,
+  "money2": 26638.45,
+  "money3": 29769.36,
+  "money4": 3900.47
+}, {
+  "id": 76,
+  "label": "software",
+  "money1": 31226.56,
+  "money2": 19454.03,
+  "money3": 65868.0,
+  "money4": 24793.46
+}, {
+  "id": 77,
+  "label": "Multi-layered",
+  "money1": 39316.37,
+  "money2": 93987.54,
+  "money3": 83703.18,
+  "money4": 38497.49
+}, {
+  "id": 78,
+  "label": "application",
+  "money1": 43592.12,
+  "money2": 39252.9,
+  "money3": 10192.26,
+  "money4": 64773.24
+}, {
+  "id": 79,
+  "label": "didactic",
+  "money1": 92064.29,
+  "money2": 46745.29,
+  "money3": 17802.87,
+  "money4": 905.76
+}, {
+  "id": 80,
+  "label": "policy",
+  "money1": 5884.04,
+  "money2": 24563.97,
+  "money3": 45595.11,
+  "money4": 41071.86
+}, {
+  "id": 81,
+  "label": "coherent",
+  "money1": 85036.82,
+  "money2": 13752.75,
+  "money3": 19036.73,
+  "money4": 31236.11
+}, {
+  "id": 82,
+  "label": "model",
+  "money1": 21204.16,
+  "money2": 65201.94,
+  "money3": 46232.92,
+  "money4": 73998.51
+}, {
+  "id": 83,
+  "label": "Synchronised",
+  "money1": 69620.22,
+  "money2": 912.28,
+  "money3": 32182.27,
+  "money4": 48652.58
+}, {
+  "id": 84,
+  "label": "Customer-focused",
+  "money1": 5525.61,
+  "money2": 55415.28,
+  "money3": 39008.23,
+  "money4": 86947.56
+}, {
+  "id": 85,
+  "label": "policy",
+  "money1": 74028.46,
+  "money2": 8882.53,
+  "money3": 38858.11,
+  "money4": 13156.15
+}, {
+  "id": 86,
+  "label": "Progressive",
+  "money1": 48823.21,
+  "money2": 84791.2,
+  "money3": 12678.59,
+  "money4": 16136.06
+}, {
+  "id": 87,
+  "label": "projection",
+  "money1": 99898.62,
+  "money2": 30403.94,
+  "money3": 97490.88,
+  "money4": 67790.95
+}, {
+  "id": 88,
+  "label": "executive",
+  "money1": 39620.02,
+  "money2": 76857.41,
+  "money3": 26611.84,
+  "money4": 13567.62
+}, {
+  "id": 89,
+  "label": "mission-critical",
+  "money1": 72185.85,
+  "money2": 45080.45,
+  "money3": 76805.0,
+  "money4": 18782.38
+}, {
+  "id": 90,
+  "label": "Pre-emptive",
+  "money1": 98700.45,
+  "money2": 36925.48,
+  "money3": 64573.0,
+  "money4": 88145.05
+}, {
+  "id": 91,
+  "label": "info-mediaries",
+  "money1": 48549.74,
+  "money2": 21472.04,
+  "money3": 1917.97,
+  "money4": 69061.26
+}, {
+  "id": 92,
+  "label": "motivating",
+  "money1": 78945.14,
+  "money2": 15842.23,
+  "money3": 1291.64,
+  "money4": 17014.12
+}, {
+  "id": 93,
+  "label": "frame",
+  "money1": 72765.23,
+  "money2": 53509.1,
+  "money3": 67714.13,
+  "money4": 45210.55
+}, {
+  "id": 94,
+  "label": "focus group",
+  "money1": 72552.07,
+  "money2": 30277.65,
+  "money3": 45271.48,
+  "money4": 62428.59
+}, {
+  "id": 95,
+  "label": "disintermediate",
+  "money1": 13351.28,
+  "money2": 99682.56,
+  "money3": 65613.34,
+  "money4": 4302.09
+}, {
+  "id": 96,
+  "label": "tangible",
+  "money1": 14293.84,
+  "money2": 84853.88,
+  "money3": 59587.15,
+  "money4": 4436.04
+}, {
+  "id": 97,
+  "label": "context-sensitive",
+  "money1": 68842.77,
+  "money2": 47825.01,
+  "money3": 71789.74,
+  "money4": 69981.08
+}, {
+  "id": 98,
+  "label": "info-mediaries",
+  "money1": 60782.44,
+  "money2": 29264.66,
+  "money3": 4462.54,
+  "money4": 71900.57
+}, {
+  "id": 99,
+  "label": "heuristic",
+  "money1": 13138.95,
+  "money2": 84372.6,
+  "money3": 8103.77,
+  "money4": 11883.6
+}, {
+  "id": 100,
+  "label": "secured line",
+  "money1": 9814.19,
+  "money2": 51173.33,
+  "money3": 28163.11,
+  "money4": 77187.0
+}]

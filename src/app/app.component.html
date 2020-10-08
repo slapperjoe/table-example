@@ -1,4 +1,10 @@
 
 <div>
-  <app-table [data]="cars$ | async"></app-table>
+  <app-generic-table 
+    [singleSelect]="true" 
+    [editable]="true"
+    [stickyHeader]="true"
+    [showTotal]="true"
+    [data]="monies$ | async">
+  </app-generic-table>
 </div>
