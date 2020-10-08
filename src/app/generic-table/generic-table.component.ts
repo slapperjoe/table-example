@@ -84,8 +84,8 @@ export class GenericTableComponent implements OnInit {
     this.selection.select(row);
   }
 
-  rowUpdate(event): void {
-    console.log();
+  rowUpdate(event, element, key): void {
+    element[key] = event.srcElement.value;
   }
 
   sortData(params: Sort): void {

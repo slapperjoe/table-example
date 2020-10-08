@@ -9,10 +9,13 @@ import { AppComponent } from './app.component';
 import { GenericTableComponent } from './generic-table/generic-table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {MatInputCommifiedDirective } from './generic-table/matMoneyInput';
+
 @NgModule({
   declarations: [
     AppComponent,
-    GenericTableComponent
+    GenericTableComponent,
+    MatInputCommifiedDirective
   ],
   imports: [
     BrowserModule,

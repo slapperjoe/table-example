@@ -11,10 +11,11 @@
     <td mat-cell *matCellDef="let element">
       <ng-container *ngIf="column.editable && selection.isSelected(element); else noEdit">
         <input
-          mdInput
-          type="number"
+          matInput
+          matMoneyInput
+          type="text"
           [value]="element[column.key]" 
-          (change)="rowUpdate($event)"
+          (change)="rowUpdate($event, element, column.key)"
           />
       </ng-container>
       <ng-template #noEdit>
