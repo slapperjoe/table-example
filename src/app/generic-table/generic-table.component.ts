@@ -5,7 +5,7 @@ import { TableModel } from './models/table.model';
 import { cloneDeep, orderBy, sortBy } from 'lodash';
 import { Sort, SortDirection } from '@angular/material/sort';
 import { InvokeFunctionExpr } from '@angular/compiler';
-import { Money, MoneyData } from 'src/models/money';
+import { MoneyData } from 'src/models/money';
 import { SelectionModel } from '@angular/cdk/collections';
 
 @Component({

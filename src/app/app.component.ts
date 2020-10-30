@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { Money, MoneyData } from '../models/money';
+import { MoneyData } from '../models/money';
 import { Observable } from 'rxjs';
 import { DeserializeArray } from 'cerializr';
 import { JsonArray } from 'cerializr/dist/interfaces';

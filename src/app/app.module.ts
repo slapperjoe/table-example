@@ -10,12 +10,14 @@ import { GenericTableComponent } from './generic-table/generic-table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatInputCommifiedDirective } from './generic-table/matMoneyInput';
+import {NumberInputDirective} from './number-input.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GenericTableComponent,
-    MatInputCommifiedDirective
+    MatInputCommifiedDirective,
+    NumberInputDirective
   ],
   imports: [
     BrowserModule,

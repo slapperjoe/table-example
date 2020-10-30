@@ -1,7 +1,7 @@
 import { autoserializeAs } from 'cerializr';
 import { Column } from '../app/generic-table/decorators/column.decorator';
 
-export class Money extends Number {}
+// export class Money extends Number {}
 
 export class MoneyData {
   @autoserializeAs(Number)

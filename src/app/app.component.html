@@ -1,10 +1,19 @@
-
 <div>
-  <app-generic-table 
+  <!-- <app-generic-table 
     [singleSelect]="true" 
     [editable]="true"
     [stickyHeader]="true"
     [showTotal]="true"
     [data]="monies$ | async">
-  </app-generic-table>
+  </app-generic-table> -->
 </div>
+
+<input matInput numberInput [options]="{
+  prefix: '$ ',
+  precission: 2,
+  inputMode: 1,
+  allowNegative: true,
+  nullable: true,
+  max: 0,
+  min: -20
+}" />
