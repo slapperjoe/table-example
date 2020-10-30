@@ -8,12 +8,57 @@
   </app-generic-table> -->
 </div>
 
-<input matInput numberInput [options]="{
+<label for="allnegOnly"> neg only</label>
+<input #allnegOnly matInput numberInput [options]="{
   prefix: '$ ',
   precission: 2,
   inputMode: 1,
   allowNegative: true,
   nullable: true,
-  max: 0,
+  allowPositive: false
+}" />
+<br />
+
+<label for="negOnly"> neg only (-20 - 0)</label>
+<input #negOnly matInput numberInput [options]="{
+  prefix: '$ ',
+  precission: 2,
+  inputMode: 1,
+  allowNegative: true,
+  nullable: true,
+  allowPositive: false,
   min: -20
+}" />
+<br />
+
+<label for="all">all (-20 - 20)</label>
+<input #all matInput numberInput [options]="{
+  prefix: '$ ',
+  precission: 2,
+  inputMode: 1,
+  allowNegative: true,
+  nullable: true,
+  max: 20,
+  min: -20
+}" />
+<br />
+
+<label for="pos">positive only (50 max)</label>
+<input #pos matInput numberInput [options]="{
+  prefix: '$ ',
+  precission: 2,
+  inputMode: 1,
+  allowNegative: false,
+  nullable: true,
+  max: 50
+}" />
+<br />
+
+<label for="allpos">positive only</label>
+<input #allpos matInput numberInput [options]="{
+  prefix: '$ ',
+  precission: 2,
+  inputMode: 1,
+  allowNegative: false,
+  nullable: true
 }" />

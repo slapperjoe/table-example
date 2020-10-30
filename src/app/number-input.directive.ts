@@ -1,10 +1,14 @@
-// @ts-nocheck
-import { Directive, forwardRef, Output, EventEmitter } from '@angular/core';
-
+import { Directive, forwardRef } from '@angular/core';
+import { NG_VALUE_ACCESSOR } from '@angular/forms';
 import { MAT_INPUT_VALUE_ACCESSOR } from '@angular/material/input';
 
-import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { CurrencyMaskDirective, CurrencyMaskInputMode } from 'ngx-currency';
+import { CurrencyMaskDirective, CurrencyMaskInputMode, CurrencyMaskConfig } from 'ngx-currency';
+
+interface ExtendedCurrencyMaskConfig extends CurrencyMaskConfig {
+  allowPositive: boolean;
+}
+
+const PLUS_KEY = 43;
 
 @Directive({
   selector: 'input[numberInput]',
@@ -19,18 +23,49 @@ import { CurrencyMaskDirective, CurrencyMaskInputMode } from 'ngx-currency';
   }]
 })
 export class NumberInputDirective extends CurrencyMaskDirective {
+  public optionsTemplate: ExtendedCurrencyMaskConfig = {
+    align: 'right',
+    allowNegative: true,
+    allowPositive: true,
+    allowZero: true,
+    decimal: '.',
+    precision: 2,
+    prefix: '$ ',
+    suffix: '',
+    thousands: ',',
+    nullable: false,
+    inputMode: CurrencyMaskInputMode.FINANCIAL
+  };
+
+  private lastKeyPress: number;
+
+  handleInput(event: any): void {
+    super.handleInput(event);
+  }
+
+  handleKeydown(event: any): void {
+    super.handleKeydown(event);
+  }
+
+  handleKeypress(event: any): void {
+    this.lastKeyPress = event.which || event.charCode || event.keyCode;
+    super.handleKeypress(event);
+  }
+
   ngOnInit(): void {
     super.ngOnInit();
 
+    this.registerOnChange(() => { });
+    this.registerOnTouched(() => { });
+
     // @ts-ignore
     const iS = this.inputHandler.inputService;
-
-    this.inputHandler.onModelChange = () => { };
-    this.inputHandler.onModelTouched = () => { };
+    const iH = this.inputHandler;
+    const that = this;
 
     iS.applyMask = (isNumber: boolean, rawValue: string, disablePadAndTrim = false): string => {
       // tslint:disable-next-line:prefer-const
-      let { allowNegative, decimal, precision, prefix, suffix, thousands, min, max, inputMode } = iS.options;
+      let { allowNegative, decimal, precision, prefix, suffix, thousands, min, max, inputMode, allowPositive } = iS.options;
 
       rawValue = isNumber ? Number(rawValue).toFixed(precision) : rawValue;
       let onlyNumbers = rawValue.replace(iS.ONLY_NUMBERS_REGEX, '');
@@ -55,23 +90,7 @@ export class NumberInputDirective extends CurrencyMaskDirective {
 
       // Ensure max is at least as large as min.
       max = (iS.isNullOrUndefined(max) || iS.isNullOrUndefined(min)) ? max : Math.max(max, min);
-      if (max !== undefined && max <= 0) {
-        if (integerPart === '0') {
-          integerPart = (max - 1).toString();
-        } else {
-          let neg = -Math.abs(integerPart);
-          if (min !== undefined && neg <= min) {
-            neg = min;
-            onlyNumbers = integerPart.toString().padEnd(integerPart.length + precision, '0');
-          }
-          integerPart = neg.toString();
-        }
-        const splitSet = rawValue.split(prefix);
-        splitSet[splitSet.length - 1] = iS.padOrTrimPrecision(Number(integerPart).toFixed(precision));
-        rawValue = `${prefix}${splitSet.join('')}`;
-        integerPart = Math.abs(integerPart).toString();
-      }
-      const integerValue = parseInt(integerPart, precision);
+      const integerValue = parseInt(integerPart, 10);
 
       integerPart = integerPart.replace(/\B(?=([0-9\u0660-\u0669\u06F0-\u06F9]{3})+(?![0-9\u0660-\u0669\u06F0-\u06F9]))/g, thousands);
       if (thousands && integerPart.startsWith(thousands)) {
@@ -80,11 +99,13 @@ export class NumberInputDirective extends CurrencyMaskDirective {
 
       let newRawValue = integerPart;
       const decimalPart = onlyNumbers.slice(onlyNumbers.length - precision);
-      const decimalValue = parseInt(decimalPart, precision) || 0;
+      const decimalValue = parseInt(decimalPart, 10) || 0;
 
-      const isNegative = rawValue.indexOf('-') > -1;
+      const isNegative = allowPositive === false || ((rawValue.indexOf('(') > -1 || rawValue.indexOf('-') > -1)
+        && this.lastKeyPress !== PLUS_KEY);
 
-      if (isNegative && (suffix === '' || (suffix.length > 0 && suffix.charAt(0) !== ')'))) {
+      if (isNegative && (suffix === '' || (suffix.length > 0 && suffix.charAt(0) !== ')')) &&
+        !(integerValue === 0 && decimalValue === 0)) {
         suffix = ')' + suffix;
       }
 
